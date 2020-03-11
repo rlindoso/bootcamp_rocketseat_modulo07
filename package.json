@@ -7,6 +7,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "history": "^4.10.1",
     "immer": "^6.0.1",
     "polished": "^3.4.4",
     "react": "^16.13.0",
@@ -28,7 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "startApi": "json-server server.json -p 3333 -w",
+    "startApi": "json-server server.json -p 3333 -w -d 0",
     "update": "git pull && yarn"
   },
   "eslintConfig": {
